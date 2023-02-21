@@ -30,6 +30,14 @@ For example:
 python3 tcp_forger.py veth3
 ```
 
+## P40F
+
+The p40f directory contains the following items:
+* The P4RROT script generating the data plane code [p40f/codegen.py](p40f/codegen.py)
+* The generated P4 files and the template [p40f/result.p4](p40f/result.p4)
+
+The original implementation and a tutorial on how to use it can be found at [P40f](https://github.com/sherrybai/P40f)
+
 ## P4RROT
 
 This repository contains only files relevant to the paper. The source code and an introduction to P4RROT can be read at [P4RROT](https://github.com/Team-P4RROT/P4RROT).
